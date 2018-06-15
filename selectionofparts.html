@@ -1,0 +1,399 @@
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Отзывы о автозапчистях</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="uikit/js/uikit.min.js"></script>
+    <script type="text/javascript" src="uikit/js/core/grid.min.js"></script>
+    <script type="text/javascript" src="uikit/js/components/lightbox.min.js"></script>
+    <script type="text/javascript" src="uikit/js/components/switcher.min.js"></script>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <div class="header">
+        <div class="uk-container uk-container-center">
+
+          <img class="header__logo" src="images/logo.png">
+          <ul class="header__menu">
+            <li>
+              <a href="#">Производители запчастей</a>
+            </li>
+            <li>
+              <a href="#">Автомагазины в Волгограде</a>
+            </li>
+            <li>
+              <a href="#">Тех. центры в Волгограде</a>
+            </li>
+          </ul>
+          <div class="header__link">
+            <a href="#">войти</a>
+            <a href="#">регистрация</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="paginat">
+        <div class="uk-container uk-container-center">
+          <ul class="pagination">
+            <li> <a href="">Главная</a> </li>
+            <li> <a href="">Выбор запчасти</a> </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="uk-container uk-container-center">
+
+          <div class="store__title store__of--parts">
+            Выбор запчасти
+          </div>
+          <div class="content__model">
+            <div class="content__title">
+              AUDI A4 Av. 1.8, дата выпуска: 2004 г.
+            </div>
+            <div class="content__model--blok">
+              <div>
+                <span>Модель:</span> Audi A4 Av. 1.8
+              </div>
+              <div>
+                <span>VIN:</span>
+              </div>
+              <div>
+                <span>Двигатель/КПП:</span> BEX
+              </div>
+            </div>
+
+          </div>
+          <div class="selection">
+            <div class="uk-grid">
+              <div class="uk-width-2-5 parts-2-5">
+                <div class="content__blok--right">
+                  <span>Классификатор:</span>
+                  <ul class="сlassifier__blok" data-uk-switcher="{connect:'#сlassifier'}">
+                      <li><a href="">Общий</a></li>
+                      <li><a href="">От производителя</a></li>
+                  </ul>
+
+                  <ul id="сlassifier" class="uk-switcher сlassifier__switcher">
+                      <li>
+                        <div class="classifier__blok">
+                          <span>Поиск:</span>
+                          <div class="brand__search classifier__search">
+                              <input type="text" name="query" value="">
+                              <button type="submit"><i class="uk-icon-search"></i></button>
+                          </div>
+                        </div>
+                        <ul class="selection__parts">
+                          <li><a href="">Кузов</a>
+                            <ul class="selection__parts">
+                              <li><a href="">Автомобиль, передняя часть</a>
+                                <ul class="selection__parts--level">
+                                  <li><a href="">Бампер / состовляющие</a></li>
+                                  <li><a href="">Капот двигателя/состовляющие/изоляция</a></li>
+                                  <li><a href="">Кожух двигателя</a></li>
+                                  <li><a href="">Переднее стекло</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="">Основная фара / комплектующие</a></li>
+                              <li><a href="">Противотуманная фара / комплектующие</a></li>
+                              <li><a href="">Фонарь указателя поворота / комплектующие</a></li>
+                              <li><a href="">Детали крепления</a></li>
+                              <li><a href="">Кабина пассажира</a></li>
+                              <li><a href="">Автомобиль, задняя часть</a></li>
+                              <li><a href="">Детали кузова/крыло/бампер</a></li>
+                              <li><a href="">Крышки/капоты/двери/сдвижная крыша/складная крыша</a></li>
+                              <li><a href="">Облицовка / защита / оформление / эмблемы / защита распыл.</a></li>
+                              <li><a href="">Остекление / зеркала</a></li>
+                              <li><a href="">Основная фара / комплектующие</a></li>
+                              <li><a href="">Дополнительная фара / комплектующие</a></li>
+                              <li><a href="">Система освещенияя / сигнализация</a></li>
+                              <li><a href="">Крепление / держатель / рама</a></li>
+                              <li><a href="">Упругие элементы</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="">Двигатель</a></li>
+                          <li><a href="">Фильтр</a></li>
+                          <li><a href="">Ременный привод</a></li>
+                          <li><a href="">Система подачи топлива</a></li>
+                          <li><a href="">Подготовка топливной смеси</a></li>
+                          <li><a href="">Система выпуска</a></li>
+                          <li><a href="">Система охлаждения</a></li>
+                          <li><a href="">Система сцепления / навесные части</a></li>
+                          <li><a href="">Коробка передач</a></li>
+                          <li><a href="">Привод колеса</a></li>
+                          <li><a href="">Главная передача</a></li>
+                          <li><a href="">Тормозная система</a></li>
+                          <li><a href="">Подвеска / амортизация</a></li>
+                          <li><a href="">Подвеска оси / система подвески / колеса</a></li>
+                          <li><a href="">Рулевое управление</a></li>
+                          <li><a href="">Электрика</a></li>
+                          <li><a href="">Система зажигания / накаливания</a></li>
+                          <li><a href="">Отопление / вентиляция</a></li>
+                          <li><a href="">Кондиционер</a></li>
+                          <li><a href="">Детали для сервиса / проверка /ухода</a></li>
+                          <li><a href="">Прицепное оборудование / комплектующие</a></li>
+                          <li><a href="">Система очистки фар</a></li>
+                          <li><a href="">Система очистки окон</a></li>
+                          <li><a href="">Дополнительное удобство</a></li>
+                          <li><a href="">Внутренняя отделка</a></li>
+                          <li><a href="">Замок</a></li>
+                          <li><a href="">Комплектующие</a></li>
+                          <li><a href="">Колеса / шины</a></li>
+                          <li><a href="">Пневматическая система</a></li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <div class="classifier__blok">
+                          <span>Поиск:</span>
+                          <div class="brand__search classifier__search">
+                              <input type="text" name="query" value="">
+                              <button type="submit"><i class="uk-icon-search"></i></button>
+                          </div>
+                        </div>
+                        <ul class="selection__parts">
+                          <li><a href="">Кузов</a></li>
+                          <li><a href="">Двигатель</a></li>
+                          <li><a href="">Фильтр</a></li>
+                          <li><a href="">Ременный привод</a></li>
+                          <li><a href="">Система подачи топлива</a></li>
+                          <li><a href="">Подготовка топливной смеси</a></li>
+                          <li><a href="">Система выпуска</a></li>
+                        </ul>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="uk-width-3-5 parts-3-5">
+                <div class="content__blok--left">
+                  <div class="uk-grid">
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-4">
+                      <div class="blok__store">
+                        <a href="" class="store__parts">
+                          <img src="images/motor.jpg">
+                          <span>Кузов</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="uk-container uk-container-center">
+
+          <div class="footer__copy">
+            &#169; 2017, &#171;Отзывы о запчастях от специалистов&#187;
+          </div>
+          <div class="footer__link">
+            <a href=""><i class="uk-icon-odnoklassniki"></i></a>
+            <a href=""><i class="uk-icon-vk"></i></a>
+            <a href=""><i class="uk-icon-twitter"></i></a>
+          </div>
+          <div class="footer__design">
+            <a href="http://domenart-studio.ru">ДоменАРТ</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
